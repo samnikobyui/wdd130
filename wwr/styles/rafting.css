@@ -49,13 +49,10 @@ footer  {
     padding: 10px 20px;
 }
 
-
 .footer p {
     margin: 0;
     text-align: center;
-    font-size: 25rm;
 }
-
 
 footer .social-links {
     display: flex;
