@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <title>WDD 130 | HTML Form - User Poll</title>
 </head>
 <body>
@@ -13,21 +17,29 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
+                <div class="form-item column2">
                 <label for="fullname">Full Name: </label><br>
                 <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
                 <label for="useremail">Email</label><br>
                 <input type="email" id="useremail" name="useremail">
+            </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
                 <label for="browser">What is your favorite browser?</label><br>
+                <div class="form-item column1">
                 <select name="browser" id="browser">
                 <option value="chrome">Chrome</option>
                 <option value="firefox">Firefox</option>
                 <option value="safari">safari</option>
             </select>
+        </div>
+        <div class="form-item column1">
             <label for="pet">Do you have a household pet?</label>
             <input type="checkbox" id="pet" name="pet">
+        </div>
             <label for="feedback">List the places you have lived.</label>
             <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
             
