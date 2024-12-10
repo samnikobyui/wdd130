@@ -169,6 +169,28 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;        
 }
+
+/* Contact Us page */ 
+/*
+.contactus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 500px;        
+} */
+ .contactus {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 200px auto;
+    max-width: 1300px;
+ }
+.contactus h2 {
+    text-align: center;
+    font-size: 3rem;
+}
 .history h2 {
     text-align: center;
     font-size: 3rem;
@@ -199,5 +221,35 @@ img {
    
 }
 
+.form h2 {
+    text-align: center;
+    font-size: 3rem;
+}
 
 
+form, .message {
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+   /* border: solid black;
+    border-radius: 0.5em;
+    background-color: lightcyan;*/
+    display: grid;
+}
+.form, .message, .sign_up {
+    margin-bottom: 20px;
+}
+
+.sign_up {
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+}
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+   /* padding: .75rem;*/
+    font-size: 1.2rem;
