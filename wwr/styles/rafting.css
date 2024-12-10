@@ -236,7 +236,7 @@ form, .message {
     background-color: lightcyan;*/
     display: grid;
 }
-.form, .message, .sign_up {
+form, .message, .sign_up {
     margin-bottom: 20px;
 }
 
