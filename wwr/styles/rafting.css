@@ -187,9 +187,10 @@ img {
     margin: 200px auto;
     max-width: 1300px;
  }
-.contactus h2 {
+.contactus h1 {
     text-align: center;
     font-size: 3rem;
+    color: var(--secondary-color);
 }
 .history h2 {
     text-align: center;
