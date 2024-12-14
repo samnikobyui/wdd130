@@ -377,7 +377,7 @@ button {
     /*Table and CTA*/
     .cta {
         background-color: var(--accent1-color);
-        color: white;
+        color: black;
         text-align: center;
         padding: 2em;
         border-radius: 8px;
